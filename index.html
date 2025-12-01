@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Dr Antonia</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="corpo">
+        <div class="left">
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" value="" placeholder="Nome do paciente">
+                <label for="data">Data</label>
+                <input type="text" name="data" id="data" value="" placeholder="00/00">
+                <label for="valor">Valor</label>
+                <input type="text" name="valor" id="valor" value="" placeholder="R$: 0,00" step="0.01" min="0">
+                
+            </div>
+            <div class="botao">
+                <button id="btnAdd">Adicionar</button>
+            </div>
+             <div class="total-barra">
+                Total atendidos: R$ <span id="totalAtendidos">0</span>
+            </div>
+        </div>
+        
+        <div class="meio" id="meio">
+
+        </div>
+
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>

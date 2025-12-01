@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.left label {
+    display: block;
+    margin-top: 10px;
+}
+
+.left input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.botao {
+    margin-top: 15px;
+}
+
+.botao button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: #45a049;
+}
+
+.meio {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.novoPaciente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.novoPaciente span {
+    margin-right: 10px;
+}
+
+.novoPaciente button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total-barra {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.novoPaciente button:nth-child(2) { background-color: #2196F3; color: white; }
+.novoPaciente button:nth-child(3) { background-color: #f44336; color: white; }
+.novoPaciente button:nth-child(4) { background-color: #9E9E9E; color: white; }
