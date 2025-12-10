@@ -1,6 +1,6 @@
-## Agenda de Contatos
+## Agenda de Atendimentos
 
-Uma aplicação simples de Agenda, permitindo cadastrar, visualizar, editar e excluir contatos.
+Uma aplicação simples de Agenda, permitindo cadastrar, visualizar, editar e excluir atendimentos.
 
 A aplicação também faz o calculo dos agendamentos marcados como atendido.
 
